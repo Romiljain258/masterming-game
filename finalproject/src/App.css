@@ -1,0 +1,189 @@
+.app{
+  text-align: center;
+}
+.background{
+  text-align: center;
+  background-image:url('https://rampaga.ru/_sf/164/46720727.jpg') !important;
+  background-size: 100% 100%;
+}
+
+#box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%; 
+}
+.head{
+  color:rgb(168, 180, 189);
+  font-weight: 600;
+  font-family: calibri;
+  margin-bottom: 25px;
+}
+.size{
+  font-size: 90px;
+}
+.Card{
+   width: 18rem;
+   height:37.5rem;
+   box-shadow: 3px 3px 3px #242424de;
+   background-image:url('https://u.kanobu.ru/editor/images/16/862b869e-05f2-4117-82c5-36c4c459104c.jpg');
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   border:3px solid black !important;
+}
+/* .choice div{
+   background: none;
+} */
+body{
+  background-image:url('https://assets.vg247.com/current/2019/03/division_2_guide_inventory_grid_view_1.jpg')!important;
+}
+.Card-header{
+ text-align: center;
+ font-weight: 1000;
+ font-size: large;
+ font-size:22px;
+ font-family:sans-serif;
+ height:35px;
+  color:rgb(162, 186, 212);
+}
+.Card-footer{
+  text-align: center;
+  font-weight: 1000;
+  font-size: large;
+  margin-bottom: 10px;
+  font-size:20px;
+  font-family:sans-serif;
+  height:35px;
+   color:rgb(110, 137, 168);
+}
+.HeaderBtn{
+  margin-left:1rem;
+  margin-right:1rem;
+  margin-bottom:0rem;
+  margin-top:-20px;
+  border-radius:3px;
+  width:20px;
+  height:20px;
+  border:1.1px solid rgb(255, 196, 0);
+  background-color:rgb(27, 27, 27);
+}
+.Card-text{
+  padding-top:1px;
+}
+.MainCompBtn{
+  margin-left:0.4rem;
+  margin-right:0.4rem;
+  margin-bottom:10px;
+  margin-top: 10px;
+  border-radius:3px;
+  width:20px;
+  height:20px;
+  border:1.1px solid rgb(255, 196, 0);
+  background-color:rgb(22, 22, 22);
+} 
+.promt{
+  color:rgb(77, 42, 2);
+  background-color: rgb(255, 197, 147);
+  font-weight: 600;
+}
+.hide-box{
+  display: hidden;
+}
+.btn-c.btn-s{
+  padding: 1px; 
+  height:9px;
+  width:9px;
+  border-radius: 500px;  
+  background-color:rgb(29, 29, 29);
+  border:1.2px solid rgb(0, 0, 0);
+  margin-left:0.4rem;
+  margin-right:0.4rem;
+  margin-bottom:10px;
+  margin-top:10px;
+}
+.btn-color1{
+  width:30px;
+  height:20px;
+  background-color: #1529e4;
+  border:1.5px solid rgb(146, 134, 94);
+  border-radius:3px;
+  cursor:grab;
+}
+.btn-color2{
+  width:30px;
+  height:20px;
+  background-color: #ff0000;
+  border:1.5px solid rgb(146, 134, 94);
+  border-radius:3px;
+  cursor:grab;
+}
+.btn-color3{
+  width:30px;
+  height:20px;
+  background-color: #f54712;
+  border:1.5px solid rgb(146, 134, 94);
+  border-radius:3px;
+  cursor:grab;
+}
+.btn-color4{
+  width:30px;
+  height:20px;
+  background-color: #6528e7;
+  border:1.5px solid rgb(146, 134, 94);
+  border-radius:3px;
+  cursor:grab;
+}
+.btn-color5{
+  width:30px;
+  height:20px;
+  background-color: #ad26c5;
+  border:1.5px solid rgb(146, 134, 94);
+  border-radius:3px;
+  cursor:grab;
+}
+.btn-color6{
+  width:30px;
+  height:20px;
+  background-color: #1590ce;
+  border:1.5px solid rgb(146, 134, 94);
+  border-radius:3px;
+  cursor:grab;
+  caret-color:brown;
+}
+.btn-pos{
+ margin-top: 8px;
+}
+.border-des{
+  border: 1.2px solid blue;
+}
+
+.ptr{
+  cursor:pointer !important;
+}
+.ptr1{
+  cursor:not-allowed !important;
+}
+.check{
+  width:50px;
+  height:35px;
+  background-color: rgb(0, 0, 0);
+  border-radius:2px;
+  border:1.4px solid rgb(238, 255, 2);
+  color:white;
+  font-weight: 600;
+  cursor:pointer;
+  margin-left: 1px;
+}
+.start{
+  font-weight: 600;
+  width:50px;
+  height:35px;
+  background-color: rgb(3, 2, 2);
+  border-radius:2px;
+  border:1.4px solid rgb(238, 255, 2);
+  margin-top:11px;
+  color:white;
+  margin-right: 1px;
+  cursor:pointer;
+}
